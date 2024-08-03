@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int age =10;
+	if(age>=18){
+		cout<<"yes,you can vote";
+	}
+	else if(age == 10){
+		cout<<"No, you are not too big, hecnce cannot vote";
+	}
+	else{
+		cout<<"No,you cannot vote";
+	}
+
+	return 0;
+
+}
