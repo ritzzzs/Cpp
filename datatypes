@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+ 
+ int main(){
+   int num =7; /*int is used for integer */
+   float decimal =6.1234; 
+   double doubledecimal = 6.1234567;
+   char letter = 's' ;
+   bool newbool= true;
+
+   cout<<"integer :"<<num<<endl;
+   cout<<"float"<<decimal<<endl;
+   cout<<"doubledecimal:"<<doubledecimal<<endl;
+   cout<<"letter:"<<letter<<endl;
+   cout<<"boolean:"<<newbool<<endl;
+    return 0;
+ }
